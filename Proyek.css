@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    background-color:#0077b6;
+    overflow: hidden;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 30px ;
+}
+.menu-item{
+    color:white ;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0,3s;
+}
+.menu-item:hover{
+    background-color: #023e8a;
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    background-color: #0076b662;
+    padding: 35px;
+}
+.beranda, h1, h2{
+    text-align: center;
+}
+.produk, h1, h2{
+    text-align: center;
+}
+.lokasi, h1, h2{
+    text-align: center;
+}
+.daftar, ol, li{
+    font-size: 25px;
+    text-align: center;
+    
+}
